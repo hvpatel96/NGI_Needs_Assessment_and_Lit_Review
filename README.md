@@ -34,6 +34,7 @@ The study utilized a mixed-methods approach to characterize the barriers faced b
 - `example_raw_transcripts/`: Contains subset of anonymized, un-coded transcript files from the participant interviews.
 - `example_coded_transcripts/`: Contains subset of anonymized transcripts coded using ATLAS.ti, capturing the qualitative themes and hierarchical codes utilized in the study.
 - `LICENSE`: The license for utilizing this dataset.
+- `Interview Guide.pdf`: Contains the semi-structured interview guide used to conduct the interviews.
 
 ## Key Findings from the Needs Assessment
 
