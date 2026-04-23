@@ -1,14 +1,26 @@
-# NGI Needs Assessment: Novice Genomics Researchers Transcripts
+# NGI Needs Assessment and Literature Review
 
-This repository contains the raw and coded interview transcripts from the needs assessment portion of the study: **"Using user-centered design to better understand challenges faced during genetic analyses by novice genomic researchers"**. 
+This repository contains data from the literature review and the raw and coded interview transcripts from the needs assessment portion of the study: **"Using user-centered design to better understand challenges faced during genetic analyses by novice genomic researchers"**. 
 
 **Paper Link:** [Preprint on bioRxiv](https://www.biorxiv.org/content/10.64898/2026.02.06.704411v1)
 
 ## Overview
 
-The study utilized a mixed-methods approach to characterize the barriers faced by novice genomics researchers (NGRs) when using bioinformatics software. While the paper includes both a literature review and a needs assessment, this repository specifically focuses on the data generated from the **needs assessment**—semi-structured interviews conducted to query the needs, challenges, and experiences of NGRs.
+The study utilized a mixed-methods approach to characterize the barriers faced by novice genomics researchers (NGRs) when using bioinformatics software. This repository focuses on the data generated from both the **literature review**, evaluating existing genomics tools, and the **needs assessment**, semi-structured interviews conducted to query the needs, challenges, and experiences of NGRs.
 
-## Methodology
+## Literature Review Methodology
+
+A targeted literature review was conducted to evaluate existing bioinformatics software tools for user-centered design considerations. The search criteria utilized to find relevant literature from different databases are provided below. Except for Pubmed, all other databases were manually filtered for the publication date (post-2003) and English language requirements.
+
+| Database | Search String |
+| --- | --- |
+| Pubmed | `(("bioinformatic") OR ("biomedical informatic") OR ("genomic") OR ("genetic") OR ("informatic") OR ("gene")) AND (("software") OR ("tool") OR ("platform") OR ("analysis") OR ("user-friendly") OR ("UCD")) AND ("2003"[Date - Publication] : "3000"[Date - Publication]) AND (English[Language])` |
+| Web of Science | `(("bioinformatic") OR ("biomedical informatic") OR ("genomic") OR ("genetic") OR ("informatic") OR ("gene")) AND (("software") OR ("tool") OR ("platform") OR ("analysis") OR ("user-friendly") OR ("UCD"))` |
+| Medline | `(("bioinformatic") OR ("biomedical informatic") OR ("genomic") OR ("genetic") OR ("informatic") OR ("gene")) AND (("software") OR ("tool") OR ("platform") OR ("analysis") OR ("user-friendly") OR ("UCD"))` |
+| Bioinformatics Software DB | Individual Searches: `"genomic"`, `"gene"`, `"user-friendly"`, `"analysis"`, `"GWAS"` |
+| Google Scholar | `(("bioinformatic") OR ("biomedical informatic") OR ("genomic") OR ("genetic") OR ("informatic") OR ("gene")) AND (("software") OR ("tool") OR ("platform") OR ("analysis") OR ("user-friendly") OR ("UCD"))` |
+
+## Needs Assessment Methodology
 
 - **Participants**: 12 graduate students from the University of Washington and Tulane University. Participants had prior experience with informatics tools but less than 3 years of experience with genomic analyses.
 - **Interviews**: 45-minute semi-structured interviews were conducted, exploring early research experiences, resources utilized, specific software tool attributes, and emotional/cognitive reactions to bioinformatics workflows.
@@ -31,10 +43,14 @@ The study utilized a mixed-methods approach to characterize the barriers faced b
 
 ## Repository Structure
 
-- `example_raw_transcripts/`: Contains subset of anonymized, un-coded transcript files from the participant interviews.
-- `example_coded_transcripts/`: Contains subset of anonymized transcripts coded using ATLAS.ti, capturing the qualitative themes and hierarchical codes utilized in the study.
+- `propective_interviews/`: Contains the data and materials for the needs assessment portion.
+  - `example_raw_transcripts/`: Subset of anonymized, un-coded transcript files from the participant interviews.
+  - `example_coded_transcripts/`: Subset of anonymized transcripts coded using ATLAS.ti, capturing the qualitative themes and hierarchical codes utilized in the study.
+  - `Interview_Guide.pdf`: The semi-structured interview guide used to conduct the interviews.
+- `retrospective_literature_review/`: Contains the data for the literature review portion.
+  - `Existing_Genomics_Tools.xlsx`: Retrospective literature review of existing genomics tools, formatted as an Excel sheet containing one row per tool.
+- `Frontiers in Bioinformatics Manuscript.docx`: The manuscript detailing the study's findings.
 - `LICENSE`: The license for utilizing this dataset.
-- `Interview Guide.pdf`: Contains the semi-structured interview guide used to conduct the interviews.
 
 ## Key Findings from the Needs Assessment
 
